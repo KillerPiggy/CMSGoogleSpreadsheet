@@ -1,0 +1,111 @@
+.mobile-carousel-sec2{
+    display: none !important;
+}
+#sync1 .item {
+    padding: 50px 0px;
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+  }
+  #sync2 .item {
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+  }
+  #sync2 .item h1 {
+    font-size: 18px;
+  }
+  #sync2 .current .item {
+    background: #0c83e7;
+  }
+  .owl-theme .owl-nav {
+  }
+  .owl-theme .owl-nav [class*='owl-'] {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+  }
+  #sync1.owl-theme {
+    position: relative;
+  }
+  #sync1.owl-theme .owl-next,
+  #sync1.owl-theme .owl-prev {
+    width: 19px;
+    height: 40px;
+    margin-top: -265px;
+    position: absolute;
+    top: 44%;
+    margin-left: 20px;
+  }
+  #sync1.owl-theme .owl-prev {
+    right: 342px;
+  }
+  #sync1.owl-theme .owl-next {
+    right: 290px;
+  }
+  select {
+    height: 40px;
+    width: 50%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin-left: 160px;
+  }
+  select option {
+    margin: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #232340;
+    border-radius: 8px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  .arrow-left i{
+    font-size:auto;
+    border-radius: 50%;
+    border: solid #8B8B8B;
+    color: #8B8B8B;
+    background-color: #ffffff;
+    line-height: 2em;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+  }
+  .arrow i{
+    font-size:auto;
+    border-radius: 50%;
+    color: #fff;
+    background-color: transparent;
+    line-height: 3em;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    display: inline-block;
+  }
+  .arrow i:active{
+    font-size:auto;
+    border-radius: 50%;
+    color: #8B8B8B;
+    background-color: #5468E7;
+    line-height: 3em;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    display: inline-block;
+  }
+  @media (max-width: 600px) {
+    .mobile-carousel-sec2{
+        display: block !important;
+    }
+  }
+
+  
